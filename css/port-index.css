@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    color: #111;
+    margin: 0%;
+}
+
+body{
+    background-color: #0a71ca;
+    font-family: Josefin Sans,sans-serif !important;
+}
+
+#nav-sec{
+    width: 100%;    
+}
+.navbar-brand{
+    color: #222;
+    font-weight: 600;
+}
+
+.navbar-brand:hover{
+    color: #111;
+}
+
+.nav-link{
+    color: #222;
+    font-weight: 600;
+}
+
+.nav-link:hover{
+    background-color: rgba(175, 159, 159, 0.774);
+    border-radius: 5px;
+    background-color: rgba(238, 235, 243, 0.13);
+    color: rgba(207, 207, 207, 0.842);
+}
+
+.navbar-toggler-icon {
+    background: url(../img/navtogler.svg);
+}
+
+#scrolly{
+    
+    width: 100%;
+    height: 100vh;
+scroll-snap-type:y mandatory;
+overflow-y: scroll;
+}
+
+#scrolly section{
+    scroll-snap-align: start;
+}
+
+#first-section{
+    height: 100vh;
+    width: 100%;
+    /* background: url("../img/back-1.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.flex-sec-1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5% 5% 0 5%;
+
+}
+
+.quote-wrapper{
+    margin: 7%  ;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.quote-wrapper h1{
+    margin: 0%;
+    font-size: 60px;
+}
+
+.quote-wrapper h1 span{
+    margin: 0%;
+    font-size: 30px;
+    color: #322;
+}
+
+.down-scrol{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1%;
+}
+
+.down-scrol p{
+    font-weight: 500;
+    color: #322;
+}
+
+.down-scrol img{
+    width: 7%;
+}
+
+#second-section{
+    height: 100vh;
+    width:100%;
+    /* background: url("../img/back-2.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.flex-sec-2{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5% 5%;
+}
+
+.about-sec{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.about-imag{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.about-imag img{
+    width: 85%;
+}
+
+.resume-btn{
+    text-decoration: none;
+    border: 1px solid rgba(175, 159, 159, 0.774);
+    border-radius: 7px;
+    background-color: rgba(238, 235, 243, 0.253);
+    font-size: 20px;
+    padding: 1%;
+    color: rgb(46, 45, 45);
+    margin-top: 10px;
+}
+
+.resume-btn:hover{
+    background-color: rgba(238, 235, 243, 0.418);
+    color: rgb(37, 34, 34);
+}
+
+#project-second-third{
+    height: 100vh;
+    width:100%;
+    /* background: url("../img/back-1.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.flex-sec-3{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 5% 5% 5% 5%;
+    align-items: center;
+}
+
+.project-headding{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-headding h1{
+    margin: 0%;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.card-scrol{
+    width: 100%;
+  height: 77vh;
+  padding: 1%;
+    overflow: hidden;
+    overflow-x: auto;
+    display: flex;
+    align-items: center;
+}
+
+.card-scrol::-webkit-scrollbar{
+    display: none;
+}
+
+.project-card{
+    width: 30%;
+    height: 280px;
+display: flex;
+flex-direction: column;
+align-items: center;    
+justify-content: space-around;
+border: 1px solid rgba(175, 159, 159, 0.774);
+border-radius: 5px;
+padding: 3%;
+background-color: rgba(238, 235, 243, 0.13);
+margin-right: 20px;
+}
+
+.project-card:hover{
+    transform: scale(103%);
+    background-color: rgba(238, 235, 243, 0.267)
+}
+
+.projcet-header{
+    width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-icon{
+    width: 35px;
+}
+
+.github-icon{
+    width:35px;
+}
+
+.project-title{
+    width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.pro-title-font{
+    color: #221;
+    font-size: 30px;
+}
+
+.pro-title-font:hover{
+color: rgb(4, 3, 61);
+}
+
+.link-style{
+    text-decoration: none;
+    color: black;
+}
+
+.project-discription{
+    color: #444;
+width: 280px;
+display: flex; 
+align-items: center;
+justify-content: center;
+}
+
+.project-discription p{
+    color: #344;
+}
+
+#contact-sec-4{
+    height: 100vh;
+    width:100%;
+    /* background: url("../img/back-2.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.flex-4{
+    width: 100%;
+    height: 100vh;
+    padding: 5% 5% 5% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-flex{
+    width: 50%;
+    padding: 0 0 0 5%;
+}
+
+.card-flex .project-card{
+    width:100%;
+    margin: 0% 0% 0% 0%;
+}
+
+.con-flex p span{
+    margin-left: 10.5%;
+}
+
+.contact-image{
+    width: 50%;
+    padding: 0% 5% 0% 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-image img{
+    width: 65%;
+}
+
+.con-flex{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.con-flex h2{
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0 auto;
+   }
+
+.con-flex p{
+    color: #223;
+    font-size: 23px;
+    margin: 0% 1%;
+}
+
+.con-flex a{
+    text-decoration: none;
+    color: #223;
+    font-size: 23px;
+    margin: 0% 1%;
+}
+
+.con-flex a:hover{
+    color: rgb(6, 6, 61);
+}
+
+#footer-section-5{
+    width: 100%;
+    padding: 0.5% 5% 0.5% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: url(../img/back-3.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.icons-list{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0%;
+    margin: 0%;
+}
+
+ul li{
+    list-style: none;
+}
+
+.icon-style{
+    color: #333;
+}
+
+.icon-style:hover{
+    color: rgb(5, 10, 56);
+}
+
